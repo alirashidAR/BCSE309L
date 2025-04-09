@@ -76,7 +76,7 @@ public class AESKeyExpansion {
             System.out.print("Round " + i + ": ");
             for (int j = 0; j < 4; j++) {
                 for (int k = 0; k < 4; k++) {
-                    System.out.printf("%02X ", keys[i * 4 + j][k]);
+                    System.out.printf("%02x ", keys[i * 4 + j][k]);
                 }
             }
             System.out.println();

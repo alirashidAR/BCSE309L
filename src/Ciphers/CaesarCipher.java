@@ -1,3 +1,5 @@
+package Ciphers;
+
 import java.util.*;
 
 public class CaesarCipher {
@@ -23,6 +25,6 @@ public class CaesarCipher {
         int shift = sc.nextInt();
         String encryptedText = caesarCipher(text, shift);
         System.out.println("Caesar cipher text: " + encryptedText);
-        System.out.println("Decypted text: " + caesarCipher(encryptedText, -shift));
+        System.out.println("Decypted text: " + caesarCipher(encryptedText    , -shift));
     }
 }

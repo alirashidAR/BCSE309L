@@ -1,4 +1,4 @@
-import java.util.*;
+package Ciphers;
 
 public class HillCipher {
     private static int[][] keyMatrix;
